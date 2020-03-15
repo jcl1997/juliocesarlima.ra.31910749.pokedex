@@ -333,7 +333,16 @@ ORDER BY nome ASC
 21. Selecione de maneira crescente os nomes dos pokémons que possuem a letra y na 4ª posição do nome.
 
 ```sql
+USE pokedex;
 
+SELECT
+	*
+FROM
+	Pokemon
+WHERE
+	nome LIKE '____Y'
+ORDER BY nome ASC
+;
 ```
 
 22. Qual é o maior valor de `ataque_especial` cadastrado?
