@@ -433,7 +433,6 @@ FROM
 WHERE
 	geracao = 1
 		AND taxa_captura = 255
-ORDER BY total DESC
 ;
 ```
 
