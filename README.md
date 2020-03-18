@@ -668,7 +668,7 @@ WHERE
 	tipo1 LIKE 'Water'
 		AND tipo2 LIKE 'Gelo'
 GROUP BY numero
-ORDER  BY total DESC
+ORDER BY total DESC
 ;
 ```
 
